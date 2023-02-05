@@ -1,0 +1,34 @@
+.lead {
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
+
+:root {
+  --green: #6b8802 !important;
+  --bs-body-color: #131313 !important;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  xxxl: 1720px,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1900px,
+);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.border {
+  border-style: dashed !important;
+}
